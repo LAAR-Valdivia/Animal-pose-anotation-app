@@ -30,7 +30,7 @@ Esto creará el ambiente *DEEPLABCUT* y asegurará la instalación de paquetes n
 
 Se debe registrar los siguientes puntos: 
 
-<video loop src="recursos/SVGsSideBySideFinal.mp4">  video </video> 
+https://github.com/LAAR-Valdivia/Animal-pose-anotation-app/raw/refs/heads/experimental/recursos/SVGsSideBySideFinal.mp4
 
 
 
