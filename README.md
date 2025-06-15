@@ -5,7 +5,7 @@
 
 # Traducción
 
-Bienvenidos a la primera aplicación hecha por *LAAR* (Laboratory of Assisted Artificial Recognition) 🎉. Más info en el siguiente [link](github.com/LAAR-Valdivia). Hay que puro darse color!
+Bienvenidos a la primera aplicación hecha por *LAAR* (Laboratory of Assisted Artificial Recognition) 🎉. Más info en el siguiente [link](https://github.com/LAAR-Valdivia). Hay que puro darse color!
 
 
 # Aplicación para notar las poses de animales 
@@ -14,14 +14,36 @@ Esta aplicación extrae las coordenadas de píxel de imágenes de animales. **Ha
 
 ## Instalación
 
-Para instalar esta aplicación, se debe tener el gestor de paquetes [Anaconda](https://www.anaconda.com/) para instalar el ambiente de trabajo con el que la app funciona. A su vez, se puede ocupar [Miniconda](https://www.anaconda.com/docs/getting-started/miniconda/main) para tener herramientas esenciales.
+Para instalar esta aplicación, se debe tener el gestor de paquetes [Anaconda](https://www.anaconda.com/) para instalar el ambiente de trabajo con el que la app funciona. A su vez, se puede ocupar [Miniconda](https://www.anaconda.com/docs/getting-started/miniconda/main) para tener solo las herramientas esenciales.
 
 Una vez instalado `conda`, hay que ejecutar el siguiente código en la consola:
 
 ```
-Alo
+conda env create -f environment.yml
 ```
-Entonces esto funciona
+
+El archivo `environment.yml` se puede encontrar [aquí](https://github.com/LAAR-Valdivia/Animal-pose-anotation-app/blob/experimental/environment.yml).
+
+Esto creará el ambiente *DEEPLABCUT* y asegurará la instalación de paquetes necesarios para el correcto funcionamiento de la aplicación.
+
+## Puntos a registrar
+
+Se debe registrar los siguientes puntos: 
+
+<video src="recursos\SVGsSideBySideFinal.mp4"
+       width="1080"
+       autoplay    <!-- arranca solo (GitHub solo lo permite si está muted) -->
+       loop        <!-- se repite indefinidamente -->
+       muted       <!-- requisito para que funcione autoplay en la mayoría de navegadores -->
+       playsinline <!-- evita pasar a pantalla completa en móviles -->
+       controls    <!-- quita esta línea si no quieres los botones -->
+>
+  Tu navegador no soporta vídeo HTML5.
+  Puedes descargarlo desde <a href="recursos\SVGsSideBySideFinal.mp4">aquí</a>.
+</video>
+
+
+
 
 
 

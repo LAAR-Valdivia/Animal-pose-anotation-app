@@ -1,11 +1,9 @@
-# Autor: Joseba Iribarren L.
 # Función: Facilitar la identificación de partes de animales
 
 import tkinter as tk
 import os
 import csv
-from tkinter import filedialog, simpledialog
-from tkinter import ttk
+from tkinter import filedialog, simpledialog, ttk
 from PIL import Image, ImageTk
 
 
@@ -22,7 +20,7 @@ class PhotoViewer:
 
         self.master = master
         self.master.title("Visualizador de Fotos")
-        self.master.geometry(str(self.master_ancho)+'x'+str(self.master_largo))
+        self.master.geometry(str(self.master_ancho) + 'x' + str(self.master_largo))
 
         self.current_image = None
         self.image_list = []
@@ -566,14 +564,14 @@ class PhotoViewer:
 
     def add_point_text(self, x, y):
         self.canvas.delete("text_id_bbox_point")
-        text_id = self.canvas.create_text(
-        x + 5,  
-        y + 5,
-        text=str(self.bbox_id),
-        anchor='nw',
-        fill='white',
-        font=('Arial', 6),
-        tags="text_id_bbox_point"
+        self.canvas.create_text(
+            x + 5,  
+            y + 5,
+            text=str(self.bbox_id),
+            anchor='nw',
+            fill='white',
+            font=('Arial', 6),
+            tags="text_id_bbox_point"
         )
     
     def delete_pixel_coord(self, event):
