@@ -30,16 +30,15 @@ Esto creará el ambiente *DEEPLABCUT* y asegurará la instalación de paquetes n
 
 Se debe registrar los siguientes puntos: 
 
-<video src="recursos\SVGsSideBySideFinal.mp4"
+<video src="recursos/SVGsSideBySideFinal.mp4"
        width="1080"
-       autoplay    <!-- arranca solo (GitHub solo lo permite si está muted) -->
-       loop        <!-- se repite indefinidamente -->
-       muted       <!-- requisito para que funcione autoplay en la mayoría de navegadores -->
-       playsinline <!-- evita pasar a pantalla completa en móviles -->
-       controls    <!-- quita esta línea si no quieres los botones -->
->
+       autoplay
+       loop
+       muted
+       playsinline
+       controls>
   Tu navegador no soporta vídeo HTML5.
-  Puedes descargarlo desde <a href="recursos\SVGsSideBySideFinal.mp4">aquí</a>.
+  Puedes descargarlo desde <a href="recursos/SVGsSideBySideFinal.mp4">aquí</a>.
 </video>
 
 
